@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import firebase from './firebase';
 import './App.css';
 import { Table } from 'react-materialize'
+// import { Link } from 'react-router-dom';
 
 class App extends Component {
   state = {
@@ -23,6 +24,7 @@ class App extends Component {
         <header className="title-broxel">
           Broxel
         </header>
+
         <section>
           <Table>
             <tbody>
