@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
-// import firebase from "../../firebase";
 import { reactFirebase } from "../../firebase";
 
 
