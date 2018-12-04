@@ -2,7 +2,7 @@ import React from "react";
 const Login = ({ onSubmit }) => {
     return (
       <div>
-        <h1>Sign up</h1>
+        <h1>Ingresa a tu cuenta</h1>
         <form onSubmit={onSubmit}>
           <label>
             Email

@@ -146,11 +146,6 @@ body,
     color: white;
 }
 
-.danger-error {
-    color: #e74c3c;
-    font-size: 16px;
-}
-
 /* Password */
 .password-state {
     display: flex;

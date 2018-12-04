@@ -6,6 +6,7 @@ export default function PrivRouter({
   authenticated,
   ...rest
 }) {
+  console.log('authenticated', authenticated);
   return (
     <Route
       {...rest}

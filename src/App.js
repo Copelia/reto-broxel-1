@@ -7,7 +7,10 @@ import Login from "./components/Login/Login";
 
 
 class App extends Component {
-  state = { loading: true, authenticated: false, user: null };
+  constructor(props){
+  super(props);
+  this.state = { loading: true, authenticated: false, user: null };
+  }
 
   componentWillMount() {
     reactFirebase.auth().onAuthStateChanged(user => {
@@ -29,10 +32,13 @@ class App extends Component {
 
 render() {
   const { authenticated, loading } = this.state;
+  
 
   if (loading) {
     return <p>Loading..</p>;
   }
+
+  
 
   return (
     <Router>

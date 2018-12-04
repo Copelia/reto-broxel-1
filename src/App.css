@@ -18,6 +18,12 @@
   color: white;
 }
 
+.title-broxel {
+  font-size: 34px;
+  color: blue;
+  padding-bottom: 2em;
+}
+
 .App-link {
   color: #61dafb;
 }
